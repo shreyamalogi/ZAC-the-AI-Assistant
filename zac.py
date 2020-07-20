@@ -79,20 +79,6 @@ if __name__ == "__main__":
         elif 'open gmail' in query:
             webbrowser.open("https://mail.google.com")
             speak("opening google mail") 
-            
-        elif 'open snapdeal' in query:
-            webbrowser.open("https://www.snapdeal.com") 
-            speak("opening snapdeal")  
-             
-        elif 'open amazon' in query or 'shop online' in query:
-            webbrowser.open("https://www.amazon.com")
-            speak("opening amazon")
-        elif 'open flipkart' in query:
-            webbrowser.open("https://www.flipkart.com")
-            speak("opening flipkart")   
-        elif 'open ebay' in query:
-            webbrowser.open("https://www.ebay.com")
-            speak("opening ebay")
         elif 'music from pc' in query or "music" in query:
             speak("ok i am playing music")
             music_dir = './music'
@@ -123,7 +109,7 @@ if __name__ == "__main__":
             print(ans_m)
             speak(ans_m)
         elif "who are you" in query or "about you" in query or "your details" in query:
-            about = "I am Zac an A I based computer program but i can help you lot like a your close friend ! i promise you ! Simple try me to give simple command ! like playing music or video from your directory i also play video and song from web or online ! i can also entain you i so think you Understand me ! ok Lets Start "
+            about = "I am Zac an A I based computer program but i can help you lot like a your close friend ! Simple try me to give simple command ! like playing music or video from your directory i also play video and song from web or online ! i can also entain you i so think you Understand me ! ok Lets Start "
             print(about)
             speak(about)
         elif "hello" in query or "hello Zac" in query:
@@ -131,7 +117,7 @@ if __name__ == "__main__":
             print(hel)
             speak(hel)
         elif "your name" in query or "sweat name" in query:
-            na_me = "Thanks for Asking my name my self ! Jarvis"  
+            na_me = "Thanks for Asking my name my self ! Zac"  
             print(na_me)
             speak(na_me)
         elif "you feeling" in query:
