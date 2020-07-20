@@ -1,1 +1,2 @@
 # zac
+An AI assistant
