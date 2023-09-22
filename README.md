@@ -6,6 +6,9 @@ Greetings, I am ZAC, your cybernetic confidant. Originating on the 21st of July 
 ##  Why ZAC?
 Shreya's POV: I was tired of manually handling tasks on my computer, and I wanted a more efficient way to interact with it. So, I decided to create my own virtual assistant, ZAC, to help automate various tasks and provide quick information at my command. This project allowed me to streamline my daily computer interactions and gain valuable experience in voice recognition and integration with external services.
 
+##  Tech Stack
+`Python` `pyttsx3` `speech_recognition` `wikipedia-api` `wolframalpha`
+
 
 ## Features
 
